@@ -1,0 +1,110 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## System setup
+
+* `.Library`, `.libPaths()`
+
+* `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
+
+* `install.packages("pak")`.
+
+* `devtools::has_devel()`
+
+* `devtools::dev_sitrep()`
+
+* `usethis::git_sitrep()`. [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html); ["Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
+
+* usethis and devtools setup in my .Rprofile. `usethis::edit_r_profile()`, what is an .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+
+Setup is not fun!
+
+:toolbox: (no breakout room) Anything still amiss to report? :fingers_crossed:
+
+---
+
+## Package creation
+
+* `pak::pkg_name_check("minipkg")`
+
+* `usethis::create_package("../minipkg")`
+
+* `usethis::edit_r_profile()`
+
+* `devtools::check()`, `usethis::use_mit_license` 
+
+* `usethis::use_git()`
+
+* `usethis::use_github()`. Look at repository including :sparkles: issue tracker :sparkles:.
+
+:eyes: [usethis website](https://usethis.r-lib.org/)
+
+:toolbox: Repeat the same steps, post the link to your package repo in the chat!
+
+---
+
+## A first function + docs + test
+
+* `usethis::use_r("time")`. Explain what `sprintf()` does.
+
+* `devtools::load()`, `what_time()`.
+
+* add an argument.
+
+* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+
+* add two dependencies, `use_package("praise")` and `use_package("rlang")`.
+
+* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+
+* Insert roxygen2 skeleton.
+
+* `devtools::document()`, `?what_time`, show the Rd file.
+
+* `use_testthat()`.
+
+* `use_test("time")`: first a simple test, then a snapshot test, then a snapshot of the error.
+
+* `devtools::test()` / test the file on its own via the button.
+
+* `devtools::check()`
+
+* Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
+
+:eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
+
+:eyes: [testthat website](https://testthat.r-lib.org/)
+
+:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: repeat the steps!
+
+---
+
+## Documentation
+
+:warning: rmarkdown and pkgdown needs your package to be _installed_.
+
+* `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, write stuff, knit, commit+push, look at GitHub repository.
+
+* `usethis::use_vignette("minipkg")`, write stuff.
+
+* `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Locally.
+
+:eyes: [pkgdown website](https://pkgdown.r-lib.org/)
+
+## GitHub Actions
+
+* `usethis::use_github_action_check_standard()`. Check on the cloud, different operating systems.
+
+* `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+
+:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+
+
+:toolbox: Repeat the steps!
+
+---
