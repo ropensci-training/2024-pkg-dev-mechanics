@@ -1,4 +1,4 @@
-baseURL = "https://rpkgdev-mechanics.netlify.app/"
+baseURL = "https://rpkgdev-mechanics-2024.netlify.app/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "Package Development: the Mechanics"
@@ -30,7 +30,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/ropensci-training/2023-pkg-dev-mechanics"
+url = "https://github.com/ropensci-training/2024-pkg-dev-mechanics"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]

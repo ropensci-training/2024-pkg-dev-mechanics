@@ -6,4 +6,4 @@ slides: false
 menuTitle: Pre-reqs
 ---
 
-Homework before the workshop.
+Homework before the first session.

@@ -7,7 +7,7 @@ Before you start writing packages...
 
 * Set up your system as [explained in the R packages book by Hadley Wickham and Jenny Bryan](https://r-pkgs.org/setup.html). Contact me (Slack message, `maelle@ropensci.org`) if the call to `devtools::has_devel()` gives you an error that puzzles you.
 
-* Create a GitHub account, install git.
+* [Create a GitHub account](https://happygitwithr.com/github-acct), [install Git](https://happygitwithr.com/install-git).
 
 * Also connect R with your GitHub account. See [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html) (and [Managing GitHub credentials from R, difficulty level linux](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/) if needed :sweat_smile:). Contact me (Slack message, `maelle@ropensci.org`) if the call to `usethis::git git_sitrep()` gives you an error that puzzles you.
 

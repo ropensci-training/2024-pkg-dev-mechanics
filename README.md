@@ -9,7 +9,7 @@
 ## Workshop for rOpenSci champions
 
 
-This repo contains the materials for a 2 hour workshop on R package development. 
+This repo contains the materials for 3 2-hour workshops on R package development. 
 
 It is powered by [Hugo](https://gohugo.io/) and the following themes:
 

@@ -4,7 +4,7 @@ title: "Package Development: the Mechanics"
 
 # Package Development: the Mechanics
 
-> March 2023
+> February-March 2024
 > [rOpenSci Champions Program](https://ropensci.org/champions/)
 
 "Develop an R package", they said...
