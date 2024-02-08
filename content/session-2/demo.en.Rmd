@@ -22,7 +22,17 @@ We have a package with a function.
 
 :eyes: [testthat website](https://testthat.r-lib.org/)
 
-:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+---
+
+## More testing
+
+* Use `withr::local_options()` in a test.
+
+* Look at the docs of `testthat::test_path()`.
+
+* Create a helper function in a file `tests/testthat/helper-bla.R`, use it in a test.
+
+:eyes: [withr website](https://withr.r-lib.org/)
 
 :toolbox: repeat the steps!
 

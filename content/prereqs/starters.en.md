@@ -17,3 +17,5 @@ Before you start writing packages...
     * [Fun with Functions talk](https://www.kaylea.co.uk/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
     * [Materials from Stephanie Kirmer's tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)    
     
+* **Prepare your questions!**
+    
