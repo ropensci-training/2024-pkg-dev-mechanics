@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: b90badd06c3fa5d7
+rmd_hash: e466cb5a7c7e9048
 
 ---
 
@@ -35,6 +35,8 @@ We have a package with a function.
 -   Create a helper function in a file `tests/testthat/helper-bla.R`, use it in a test.
 
 :eyes: [withr website](https://withr.r-lib.org/)
+
+:eyes: [Helper code and files for your testthat tests](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/)
 
 :toolbox: repeat the steps!
 
