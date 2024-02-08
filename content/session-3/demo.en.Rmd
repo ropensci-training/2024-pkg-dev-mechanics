@@ -1,0 +1,35 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## Reminder
+
+We have a package with one function and tests.
+
+That function has a local manual page.
+
+## Documentation
+
+:warning: rmarkdown and pkgdown needs your package to be _installed_.
+
+* `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, write stuff, knit, commit+push, look at GitHub repository.
+
+* `usethis::use_vignette("minipkg")`, write stuff. Vignette vs article.
+
+* `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Locally.
+
+:eyes: [pkgdown website](https://pkgdown.r-lib.org/)
+
+:toolbox: Repeat the steps!
+
+## Build website automatically
+
+* `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+
+:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: Repeat the steps!
+
+---

@@ -1,0 +1,39 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## Reminder from last time
+
+We have a package with a function.
+
+---
+
+## A test
+
+* `use_testthat()`.
+
+* `use_test("time")`: first a simple test, then a snapshot test, then a snapshot of the error.
+
+* `devtools::test()` / test the file on its own via the button.
+
+* `devtools::check()`
+
+:eyes: [testthat website](https://testthat.r-lib.org/)
+
+:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: repeat the steps!
+
+---
+
+## GitHub Actions
+
+* `usethis::use_github_action_check_standard()`. Check on the cloud, different operating systems.
+
+:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: Repeat the steps!
+
+---
