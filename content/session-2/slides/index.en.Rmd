@@ -50,7 +50,7 @@ get_pic(id = 132682, alt = "Bike in repair room", 400)
 
 ## Today
 
-- Testing
+- Testing (as opposed to experiments in the console)
 
 - Continuous integration
 

@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: f4978b45cecb0998
+rmd_hash: c912cab1e89410f2
 
 ---
 
@@ -31,7 +31,7 @@ rmd_hash: f4978b45cecb0998
 
 ## Today
 
--   Testing
+-   Testing (as opposed to experiments in the console)
 
 -   Continuous integration
 
