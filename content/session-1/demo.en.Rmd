@@ -60,16 +60,6 @@ Setup is not fun!
 
 ---
 
-## Use dependencies
-
-* add two dependencies, `use_package("praise")` and `use_package("rlang")`.
-
-* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
-
-:toolbox: Repeat the steps!
-
----
-
 ## Manual page
 
 * Insert roxygen2 skeleton.
@@ -81,6 +71,16 @@ Setup is not fun!
 :eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
 
 :eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: Repeat the steps!
+
+---
+
+## Use dependencies
+
+* add two dependencies, `use_package("praise")` and `use_package("rlang")`.
+
+* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
 :toolbox: Repeat the steps!
 

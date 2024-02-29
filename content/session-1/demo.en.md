@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: d5ff174db2be59d8
+rmd_hash: 06eb86caef527a3a
 
 ---
 
@@ -62,16 +62,6 @@ Setup is not fun!
 
 ------------------------------------------------------------------------
 
-## Use dependencies
-
--   add two dependencies, `use_package("praise")` and `use_package("rlang")`.
-
--   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
-
-:toolbox: Repeat the steps!
-
-------------------------------------------------------------------------
-
 ## Manual page
 
 -   Insert roxygen2 skeleton.
@@ -83,6 +73,16 @@ Setup is not fun!
 :eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
 
 :eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: Repeat the steps!
+
+------------------------------------------------------------------------
+
+## Use dependencies
+
+-   add two dependencies, `use_package("praise")` and `use_package("rlang")`.
+
+-   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
 :toolbox: Repeat the steps!
 
