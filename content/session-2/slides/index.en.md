@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: c912cab1e89410f2
+rmd_hash: fd2441be7bd58478
 
 ---
 
@@ -44,6 +44,8 @@ rmd_hash: c912cab1e89410f2
 -   <https://mtlynch.io/good-developers-bad-tests/>
 
 -   <https://blog.r-hub.io/2020/11/18/testthat-utility-belt/>
+
+-   <https://github.com/r-lib/actions>
 
 ------------------------------------------------------------------------
 
